@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+.env
+.DS_Store
+
+# Large source data, see data/README.md for where to get it
+data/Austin_311_Public_Data.csv
+data/reviews_with_sentiment.csv
+data/listings.csv
+data/streets.*
+data/*.zip
+
+# Intermediate artefacts that are cheap to regenerate
+out/noise_311_points.csv
+out/listings_features.csv
